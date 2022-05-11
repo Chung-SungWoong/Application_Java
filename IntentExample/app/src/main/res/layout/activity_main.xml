@@ -11,8 +11,7 @@
         android:id="@+id/et_change"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:hint="이곳에 값을 입력하세요!"
-        />
+        android:hint="이곳에 값을 입력하세요!" />
 
     <Button
         android:id="@+id/btn_move"
@@ -21,7 +20,17 @@
         android:text="이동"
         />
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">//위젯의 위치를 센터로 이동
 
+        <ImageView
+            android:id="@+id/iv_test"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/ic_launcher" />
+        //사진을 가져오는 곳의 위치
 
-
+    </LinearLayout>
 </LinearLayout>

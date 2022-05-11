@@ -7,12 +7,16 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
     private Button btn_move;
     private EditText et_change;
     private String str;
+    private ImageView iv_test;
+
 
 
     @Override
@@ -33,6 +37,12 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
+        iv_test = (ImageView)findViewById(R.id.iv_test);
+        iv_test.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getApplicationContext(),"이건 좀 헷갈린다",Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 }
