@@ -26,3 +26,6 @@ Firstly, ask some questions to the user the condition of the patient to make a b
 Second, if user knows the name of a disease that patient was suffering from, they can search it from the list.
 
 Lastly, this application gives some picture of the situation of the patient, to guess the problem of that person.
+
+
+## Feature
