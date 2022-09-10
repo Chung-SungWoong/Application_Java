@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Edit_Text_and_Buttons.iml" filepath="$PROJECT_DIR$/.idea/modules/Edit_Text_and_Buttons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Edit_Text_and_Buttons.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Edit_Text_and_Buttons.app.iml" />
     </modules>
   </component>
 </project>

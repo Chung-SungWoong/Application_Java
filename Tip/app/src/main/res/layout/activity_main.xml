@@ -1,0 +1,84 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1">
+
+    <TableRow>
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:layout_marginLeft="88dp"
+            android:gravity="center"
+            android:hint="Enter Meal Cost" />
+    </TableRow>
+
+
+    <TableRow>
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="36dp"
+            android:layout_marginLeft="88dp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Enter Tip Percentage"
+            android:inputType="textPersonName" />
+
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="150dp"
+            android:layout_height="72dp"
+            android:layout_marginBottom="40dp"
+            android:layout_marginLeft="80"
+            android:gravity="center"
+            android:text="Tip percent $0.00" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="196dp"
+            android:layout_height="102dp"
+            android:gravity="center"
+            android:text="Total Meal Cost: $ 0.00" />
+
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:id="@+id/Calbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginstart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="266dp"
+            android:gravity="center"
+            android:text="Calculate" />
+    </TableRow>
+
+
+    <TableRow>
+        <Button
+            android:id="@+id/clrbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginstart="45dp"
+            android:layout_marginBottom="85dp"
+            android:layout_marginLeft="85dp"
+            android:gravity="center"
+            android:text="Clear" />
+
+    </TableRow>
+
+
+    />
+</TableLayout>
